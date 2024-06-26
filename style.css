@@ -114,14 +114,14 @@ body{
 @media only screen and (max-width : 420px)
 {
     .card {
-        width: 77%;
+        width: 73%;
         max-width: 484px;
         background-color: rgba(255, 255, 255, .15);
         backdrop-filter: blur(5px);
         color: #fff;
-        margin: 146px auto 0;
+        margin: 59px auto 87px;
         border-radius: 20px;
-        padding: 40px 35px;
+        padding: 30px 34px;
         text-align: center;
         box-shadow: 0 3px 15px #222121;
         border-color: #000000;
@@ -134,7 +134,7 @@ body{
     }
 
     .search {
-        width: 102%;
+        width: 112%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -145,25 +145,65 @@ body{
         outline: 0;
         background: #ebfffc;
         color: #555;
-        padding: 15px 9px;
+        padding: 9px 20px;
         height: 42px;
         border-radius: 30px;
         flex: 1;
-        margin-right: 19px;
+        margin-right: 14px;
         font-size: 12px;
+        width: 42;
     }
 
-    .search button {
-        border: 0;
-        outline: 0;
-        background: #ebfffc;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-    }
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 39px;
+    height: 37px;
+    cursor: pointer;
+    margin-right: 30px;
+}
 
     .search button img {
         width: 14px;
     }
+
+    .weather h1 {
+        font-size: 54px;
+        font-weight: 500;
+    }
+
+    .weather h2 {
+        font-size: 30px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1px;
+        margin-top: 45px;
+        margin-left: -23;
+    }
+
+    .col {
+        display: inline-flex;
+        align-items: center;
+        text-align: left;
+        margin-left: 19px;
+    }
+
+    .col img {
+        width: 25px;
+        margin-right: 7px;
+    }
+
+    .humidity, .wind {
+        font-size: 17px;
+        margin-top: -6px;
+    }
 }
+    
